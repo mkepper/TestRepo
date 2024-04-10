@@ -22,7 +22,7 @@ struct ContentView: View {
                         VStack(alignment: .leading) {
                             
                             if recipe.isVegan {
-                                Image(systemName: "leaf")
+                                Image(systemName: "leaf") //I came up with the leaf - Sean
                                     .symbolVariant(.fill)
                                     .foregroundColor(.green)
                                     .font(.largeTitle)
