@@ -11,6 +11,8 @@
 		E5278F2F2BC6DA9900558142 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5278F2E2BC6DA9900558142 /* ContentView.swift */; };
 		E5278F312BC6DA9A00558142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5278F302BC6DA9A00558142 /* Assets.xcassets */; };
 		E5278F342BC6DA9A00558142 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5278F332BC6DA9A00558142 /* Preview Assets.xcassets */; };
+		E541AD712BC6DBBC00AA673C /* CreateRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E541AD702BC6DBBC00AA673C /* CreateRecipe.swift */; };
+		E541AD732BC6DBFD00AA673C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E541AD722BC6DBFD00AA673C /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E5278F2E2BC6DA9900558142 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5278F302BC6DA9A00558142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5278F332BC6DA9A00558142 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E541AD702BC6DBBC00AA673C /* CreateRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRecipe.swift; sourceTree = "<group>"; };
+		E541AD722BC6DBFD00AA673C /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		E5278F2B2BC6DA9900558142 /* VeryCreative */ = {
 			isa = PBXGroup;
 			children = (
+				E541AD722BC6DBFD00AA673C /* Recipe.swift */,
+				E541AD702BC6DBBC00AA673C /* CreateRecipe.swift */,
 				E5278F2C2BC6DA9900558142 /* VeryCreativeApp.swift */,
 				E5278F2E2BC6DA9900558142 /* ContentView.swift */,
 				E5278F302BC6DA9A00558142 /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			files = (
 				E5278F2F2BC6DA9900558142 /* ContentView.swift in Sources */,
 				E5278F2D2BC6DA9900558142 /* VeryCreativeApp.swift in Sources */,
+				E541AD712BC6DBBC00AA673C /* CreateRecipe.swift in Sources */,
+				E541AD732BC6DBFD00AA673C /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
